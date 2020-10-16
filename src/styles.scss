@@ -1,0 +1,16 @@
+@font-face {
+	font-family: Roboto;
+    src: local(Roboto), url(assets/fonts/roboto/Roboto-Regular.ttf);
+    font-family: Roboto-Medium;
+    src: local(Roboto-Medium), url(assets/fonts/roboto/Roboto-Medium.ttf);
+}
+
+body {
+    font-family: "Roboto";
+    width: 100%;
+    height: auto;
+}/* You can add global styles to this file, and also import other style files */
+
+.title-view {
+    margin-bottom: 40px;
+}

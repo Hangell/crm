@@ -1,0 +1,60 @@
+<div class="container">
+  <nav class="side-nav">
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a>
+          <img src="../../../../assets/img/logo.png" alt="">
+        </a>
+      </li>
+      <li class="nav-item" [routerLink]="['/']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }">
+        <a>
+          <i class="fas fa-home"></i>
+          <br>
+          <span class="menu-text">Tarefas</span>
+        </a>
+      </li>
+      <li class="nav-item" [routerLink]="['/dashboard']" [routerLinkActive]="['active']">
+        <a>
+          <i class="fas fa-desktop"></i>
+          <br>
+          <span class="menu-text">Dashboard</span>
+        </a>
+      </li>
+      <li class="nav-item" [routerLink]="['/clientes']" [routerLinkActive]="['active']">
+        <a>
+          <i class="fas fa-users"></i>
+          <br>
+          <span class="menu-text">Clientes</span>
+        </a>
+      </li>
+      <li class="nav-item" [routerLink]="['/leads']" [routerLinkActive]="['active']">
+        <a>
+          <i class="fas fa-id-card"></i>
+          <br>
+          <span class="menu-text">Leads</span>
+        </a>
+      </li>
+      <li class="nav-item" [routerLink]="['/pipeline']" [routerLinkActive]="['active']">
+        <a>
+          <i class="fas fa-filter"></i>
+          <br>
+          <span class="menu-text">Pipeline</span>
+        </a>
+      </li>
+      <li class="nav-item" [routerLink]="['/nps']" [routerLinkActive]="['active']">
+        <a>
+          <i class="fas fa-chart-line"></i>
+          <br>
+          <span class="menu-text">NPS</span>
+        </a>
+      </li>
+      <li class="nav-item" [routerLink]="['/ranking']" [routerLinkActive]="['active']">
+        <a>
+          <i class="fas fa-newspaper"></i>
+          <br>
+          <span class="menu-text">Ranking</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>

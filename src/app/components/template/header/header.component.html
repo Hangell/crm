@@ -1,0 +1,26 @@
+<nav class="plut-topnav navbar navbar-expand navbar-light    fixed-top">
+    <!-- Navbar Search-->
+    <form class="d-md-inline-block form-inline d-sm-none d-md-block">
+        <div class="container">
+            <input type="text" placeholder="Buscar usuarios...">
+            <button class="btn-busca" type="button"><i class="fas fa-search"></i></button>
+          </div>
+    </form>
+    <!-- Navbar-->
+    <a class="ml-auto mr-auto"><img src="../../../../assets/img/montebravo.png" alt="" routerLink="/"></a>
+    <ul class="navbar-nav align-middle position-relative">
+        <li class="nav-item dropdown">
+            <a class="nav-link" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2">Rodrigo Rangel</span>
+                <button class="btn-name align-middle rounded">
+                    <em>R</em>
+                </button>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+                <a class="dropdown-item" routerLink="myuser">User</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item btn">Logout</a>
+            </div>
+        </li>
+    </ul>
+  </nav>

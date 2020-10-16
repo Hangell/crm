@@ -1,0 +1,107 @@
+nav{
+    background-color: #ffffff;
+    color: black;
+    z-index: unset;
+    margin-top: 25px;
+    margin-left: 8.53em;
+}
+
+img {
+    width: 285px;
+    height: 26px;
+    text-align: center;
+}
+
+input {
+    background-color: #fafafa;
+    border: transparent;
+    border-radius: 30px;
+    width: 14.625em;
+    height: 2.188em;
+    font-size: 15px;
+    color: #3D3D3C;
+    font-weight: 400;
+    padding-left: 10px;
+  }
+  .btn-busca {
+    background: rgb(31,31,31);
+    border: transparent;
+    opacity: 1;
+    border-radius: 30px;
+    width: 51px;
+    height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    right: 50px;
+    cursor: pointer;
+  }
+
+  .btn-busca:hover {
+    background-color: #BA9350;
+  } 
+  span{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  }
+
+.btn-name{
+  background: rgb(31,31,31);
+  width: 35px;
+  height: 35px;
+  opacity: 1;
+}
+
+em {
+  font-family: "Roboto-Medium";
+  font-style: normal;
+  font-size: 18px;
+  color: white;
+}
+
+@media (max-width: 900px) {
+
+input {
+  background-color: #fff;
+  border: transparent;
+  border-radius: 30px;
+  width: 70%;
+  height: 35px;
+  font-size: 15px;
+  color: #3D3D3C;
+  font-weight: 400;
+  padding-left: 10px;
+}
+.btn-busca {
+  //background: rgb(31,31,31);
+  opacity: 1;
+  border-radius: 30px;
+  width: 30%;
+  height: 35px;
+  font-size: 14px;
+  color: #ffffff;
+  position: relative;
+  right: 12px;
+  cursor: pointer;
+  }
+  span{
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+  }
+
+.btn-name{
+  background: rgb(31,31,31);
+  width: 35px;
+  height: 35px;
+  opacity: 1;
+}
+
+em {
+  font-family: "Roboto-Medium";
+  font-size: 18px;
+  color: white;
+  font-style: normal;
+}
+}

@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    min-height: calc(100vh - 4.3rem);
+    /*min-height: 100vh;*/
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.content {
+    width: 100%;
+    /* margin: 3rem 0.2rem; */
+    margin: 8rem 1.5rem 0rem;
+}
